@@ -52,6 +52,7 @@ class Main {
           > Description: 
             > Loops While New Line Is Available And Prints Each New Line. */
         case 4:
+          System.out.println("Current Students:");
           for (int i = 0; i < arrayList.size(); i++) {
             System.out.println(arrayList.get(i)); }
           break;
